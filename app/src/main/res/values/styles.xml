@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#D3D3D3</item>
+    </style>
+    <style name="MenuHeaderItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="TimeInput">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginHorizontal">30dp</item>
+        <item name="android:layout_marginVertical">15dp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:background">@drawable/settings_menu_item</item>
+    </style>
+    <style name="MenuFontItem">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/settings_menu_item</item>
+        <item name="android:backgroundTint">@color/light_cool_gray</item>
+    </style>
+    <style name="MenuColorItem">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/settings_menu_item</item>
+    </style>
+</resources>

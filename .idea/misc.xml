@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/circular_progress_bar.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/curved_view.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/ic_check.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/ic_pause.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/ic_play_arrow.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/ic_stop.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/ic_timer.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/menu_color.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/nav_bar_background.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/nav_item_background.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/nav_item_color1.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/nav_item_color2.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/nav_item_color3.xml" value="0.22412280701754386" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/round_corners.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/settings.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/drawable/settings_menu_background.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/layout/settings_menu.xml" value="0.4" />
+        <entry key="..\:/Users/Noel/AndroidStudioProjects/Pomodoro/app/src/main/res/xml/resources.xml" value="0.21052631578947367" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

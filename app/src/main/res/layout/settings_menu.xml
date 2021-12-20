@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/settings_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corners"
+            android:backgroundTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/menu_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/top_divider"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Settings"
+                android:textSize="22sp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/top_divider"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/close"
+                android:tint="@color/black"/>
+
+            <View
+                android:id="@+id/top_divider"
+                style="@style/Divider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/time_header"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menu_header"/>
+
+            <TextView
+                android:id="@+id/time_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/top_divider"
+                android:text="TIME (MINUTES)"
+                android:textSize="22dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/pomodoro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/short_break"
+                app:layout_constraintTop_toBottomOf="@id/time_header"
+                android:text="pomodoro"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/pomodoro_time"
+                style="@style/TimeInput"
+                android:text="25"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/short_break_time"
+                app:layout_constraintTop_toBottomOf="@id/time_header"/>
+
+            <TextView
+                android:id="@+id/short_break"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/long_break"
+                app:layout_constraintTop_toBottomOf="@id/pomodoro"
+                android:text="short break"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/short_break_time"
+                style="@style/TimeInput"
+                android:text="5"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@id/long_break_time"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pomodoro_time" />
+
+            <TextView
+                android:id="@+id/long_break"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/bottom_divider"
+                app:layout_constraintTop_toBottomOf="@id/short_break"
+                android:text="long break"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/long_break_time"
+                style="@style/TimeInput"
+                android:text="30"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@id/bottom_divider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/short_break_time" />
+
+
+
+            <View
+                android:id="@+id/bottom_divider"
+                style="@style/Divider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/colors_header"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/long_break"/>
+
+            <TextView
+                android:id="@+id/colors_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bottom_divider"
+                android:text="COLOR"
+                android:textSize="22dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/color_1"
+                style="@style/MenuColorItem"
+                android:backgroundTint="@color/salmon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/color_2"
+                app:layout_constraintEnd_toStartOf="@id/color_2"
+                app:layout_constraintTop_toTopOf="@id/color_2" />
+
+            <ImageView
+                android:id="@+id/color_2"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="45dp"
+                style="@style/MenuColorItem"
+                android:backgroundTint="@color/sky_blue"
+                app:layout_constraintStart_toEndOf="@id/color_1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/color_3"
+                app:layout_constraintTop_toBottomOf="@id/colors_header" />
+
+            <ImageView
+                android:id="@+id/color_3"
+                style="@style/MenuColorItem"
+                android:backgroundTint="@color/lavender"
+                app:layout_constraintStart_toEndOf="@id/color_2"
+                app:layout_constraintBottom_toBottomOf="@id/color_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/color_2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/apply_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="30dp"
+            android:background="@drawable/nav_item_color1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/settings_container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/settings_container"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
